@@ -26,12 +26,7 @@ export default class SlackMessage {
             text: message
         }, slackProperties), function(err, response) {
             if (!config.quietMode) {
-                if (err) {
-                    console.log('Unable to send a message to slack');
-                    console.log(response);
-                } else {
                     console.log(`The following message is send to slack: \n ${message}`);
-                }
             }
         });
     }

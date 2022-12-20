@@ -9,8 +9,8 @@
   },
   "contributors": [
     {
-      "name": "Eric van Eldik",
-      "email": "ericvaneldik@gmail.com"
+      "name": "Milan Suka",
+      "email": "sukamilan@gmail.com"
     }
   ],
   "main": "lib/index",
@@ -33,9 +33,9 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
-    "@babel/plugin-transform-runtime": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
     "callsite-record": "^4.1.4",
     "del": "^6.1.1",
     "gulp": "^4.0.2",
@@ -45,7 +45,7 @@
     "normalize-newline": "^1.0.2",
     "publish-please": "^5.5.2",
     "read-file-relative": "^1.2.0",
-    "testcafe": "^1.19.0"
+    "testcafe": "^2.1.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.18.2",
