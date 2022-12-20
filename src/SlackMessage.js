@@ -24,9 +24,9 @@ export default class SlackMessage {
     sendMessage(message, slackProperties = null) {
         this.slack.send(Object.assign({
             text: message
-        }, slackProperties), function(err, response) {
+        }, slackProperties), function() {
             if (!config.quietMode) {
-                    console.log(`The following message is send to slack: \n ${message}`);
+                console.log(`The following message is send to slack: \n ${message}`);
             }
         });
     }
